@@ -4,13 +4,19 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: linear-gradient(to right, rgb(235, 174, 247), rgb(107, 201, 245));
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  
 }
 
-* {
-  box-sizing: border-box;
+a:hover{
+  color: azure;
+  text-decoration: underline;
 }
+
+
+
